@@ -25,7 +25,10 @@ android {
         targetCompatibility JavaVersion.VERSION_1_8
     }
 
-    buildFeatures.aidl = true
+    buildFeatures {
+        aidl true
+        viewBinding true
+    }
 }
 
 dependencies {
